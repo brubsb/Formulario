@@ -1,0 +1,84 @@
+form {
+    background-color: #ad5a1f;
+    text-align: center;
+    width: 100%; 
+    max-width: 500px;
+    margin: 0 auto; 
+    border-radius: 20px;
+    padding-bottom: 20px; 
+    padding-top: 20px; 
+    margin-top: 70px; 
+}
+
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px #000000
+}
+
+.título2 {
+    font-size: 50%;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.título2::after {
+    content: "";
+    display: block;
+    width: 420px; 
+    border-bottom: 3px solid #f0d0b1;
+    margin-left: 37px; 
+    position: absolute;
+    bottom: 0; 
+  }
+
+.botao {
+    background-color: #f0d0b1;
+    color: rgb(0, 0, 0); 
+    width: 100px; 
+    height: 40px; 
+    border-radius: 7px; 
+    font-weight: bold; 
+    border-color: #ad5a1f;
+    position: relative;
+    margin-left: -150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+label{
+    color: #ffffff;
+    padding-top: 25px;
+    text-shadow: 2px 2px 5px #000000;
+    text-align: left;
+}
+
+.entrada {
+    background-color: #f0d0b1;
+    box-shadow: 2px 2px 5px #635445;
+    border-color: #f0d0b1;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.opcoes {
+    margin-left: -14px;
+}
+
+.opcoes2 {
+    background-color: #f0d0b1;
+    box-shadow: 2px 2px 5px #635445;
+    border-color: #f0d0b1;
+    border-radius: 5px;
+    height: 30px;
+    width: 306px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.mensagem {
+    margin-left: -28px;
+}
